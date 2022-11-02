@@ -1,4 +1,4 @@
-.body {
+.bodyPc {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -15,4 +15,17 @@
     width: 100vw !important;
     height: 100vh !important;
     background-color: #141625;
+    gap:80%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+
 }
