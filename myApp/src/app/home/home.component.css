@@ -7,6 +7,17 @@
     padding: 0px;
 }
 
+
+.dropdown button {
+    background-color: transparent !important;
+    border: 0px !important;
+
+}
+
+.btn btn-primary {
+    border-radius: 20px !important;
+}
+
 .invoices {
     padding-top: 10vh;
     display: flex;
