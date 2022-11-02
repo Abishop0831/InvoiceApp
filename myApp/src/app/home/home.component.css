@@ -21,7 +21,14 @@
 .left {
     display: flex;
     flex-direction: column;
+}
 
+.left h1 {
+    color:aliceblue
+}
+
+.left p {
+    color: gray;
 }
 
 .right {
