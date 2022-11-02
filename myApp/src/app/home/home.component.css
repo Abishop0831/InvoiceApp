@@ -18,6 +18,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    overflow-y: auto;
+ 
 }
 
 
@@ -25,17 +27,19 @@
     display: flex;
     flex-direction: row;
     color: gray;
-    gap: 5.5vw;
+    gap: 5.6vw;
+    padding-left: .5vw;
 }
 
 .cpcInput {
     display: flex;
     flex-direction: row;
-    gap: 3vw;
+    gap: 2.5vw;
 }
 
 .cpcInput input {
-width: 6vw;
+width: 33%;
+margin-bottom: 2vh;
 }
 
 
@@ -68,5 +72,5 @@ width: 6vw;
 .right {
     display: flex;
     flex-direction: row;
-
+    gap: 2vw;
 }
